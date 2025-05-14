@@ -20,8 +20,8 @@ button{
     padding: 2px;
     height: 30px;
     font-size: 15px;
-    background-color: #7C5841;
-    color: #F7F9F9;
+    background-color: wheat;
+    color: #aa745228;
 }
 button:hover{
     background-color: #AA7452;
@@ -29,10 +29,13 @@ button:hover{
     color:#F7F9F9;
 }
 
-.tp{
-    color: #F7F9F9;
+.tp-button{
+    color: #aa745228;
     text-decoration: none;
 }
 ul{
     list-style: none;
+}
+.next{
+    text-decoration: underline #aa745228;
 }

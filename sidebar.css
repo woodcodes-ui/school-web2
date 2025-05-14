@@ -26,3 +26,42 @@ nav{
 img{
     height: 5vh;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .fav{
+        height: 5vh;
+    }
+    nav{
+    background-color: wheat;
+    height: 7.5vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 5px;
+    }
+    #header{
+        font-size: 12px;
+    }
+    #left{
+        position: relative;
+        left: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+    }
+    #right {
+        position: relative;
+        right: 0px;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 10px;
+    }
+    img{
+        height: 5vh;
+    }
+}
