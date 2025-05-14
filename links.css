@@ -1,0 +1,38 @@
+h1{
+    color: #AA7452;
+}
+h2{
+    color: #F7F9F9;
+}
+a{
+    color: #7C5841;
+
+    text-decoration: none;
+}
+a:hover{
+    color: #AA7452;
+    cursor:pointer;
+}
+button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #7C5841;
+    color: #F7F9F9;
+}
+button:hover{
+    background-color: #AA7452;
+    text-decoration: none;
+    color:#F7F9F9;
+}
+
+.tp{
+    color: #F7F9F9;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}

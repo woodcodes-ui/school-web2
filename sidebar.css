@@ -1,0 +1,28 @@
+nav{
+    background-color: #2D383E;
+    height: 7.5vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#left{
+    position: relative;
+    left: 210px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+}
+#right {
+    position: relative;
+    right: 100px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 21px;
+}
+img{
+    height: 5vh;
+}
