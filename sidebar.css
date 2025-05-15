@@ -34,6 +34,7 @@ img{
     }
     nav{
     background-color: wheat;
+    width: 100vw;
     height: 7.5vh;
     align-items: center;
     display: flex;

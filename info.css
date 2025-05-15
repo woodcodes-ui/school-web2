@@ -26,3 +26,42 @@
 b{
     font-weight: 600;
 }
+.vids{
+    display: grid;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .border{
+    padding: 20px;
+    border: 1px solid #899899;
+    border-radius: 10px;
+    background-color: #041e2b;
+    width: 50vw;
+}
+.def{
+    display: none;
+    background-color: #051822;
+    padding: 10px;
+    border-radius:10px;
+}
+.tipos{
+    padding: 5px;
+    border-radius: 6px;
+}
+.tipos:hover{
+    background-color: #051822;
+}
+.ejemplos{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+b{
+    font-weight: 600;
+}
+.vids{
+    display: grid;
+    gap: 30px;
+}
+}

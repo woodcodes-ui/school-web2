@@ -39,3 +39,6 @@ ul{
 .next{
     text-decoration: underline #aa745228;
 }
+iframe{
+    border-radius: 10px;
+}
