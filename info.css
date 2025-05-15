@@ -64,4 +64,8 @@ b{
     display: grid;
     gap: 30px;
 }
+.temas{
+    display: grid;
+    gap: 10px;
+}
 }

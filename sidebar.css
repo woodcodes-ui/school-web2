@@ -35,7 +35,7 @@ img{
     nav{
     background-color: wheat;
     width: 100vw;
-    height: 7.5vh;
+    height: 12.5vh;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -63,6 +63,6 @@ img{
         font-size: 10px;
     }
     img{
-        height: 5vh;
+        height: 7vh;
     }
 }
