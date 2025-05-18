@@ -81,7 +81,4 @@ function updateLinks() {
         }
     });
 }
-
-// Run function on load and when window resizes
-window.addEventListener("load", updateLinks);
-window.addEventListener("resize", updateLinks);
+updateLinks()
