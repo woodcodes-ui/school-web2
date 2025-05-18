@@ -30,6 +30,10 @@ b{
     display: grid;
     gap: 30px;
 }
+.Act-btn{
+    display: grid;
+    gap: 10px;
+}
 
 @media only screen and (max-width: 600px) {
     .border{
@@ -75,4 +79,5 @@ p{
     display: grid;
     gap: 10px;
 }
+
 }
