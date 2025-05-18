@@ -53,10 +53,17 @@ iframe{
     justify-content: center;
     align-items: center;
     padding: 5px;
-    height: 25px;
+    height: 30px;
     font-size: 12px;
     background-color: wheat;
     color: #aa745228;
+    }
+    .tp-button{
+    color: #aa745228;
+    text-decoration: none;
+    padding: 5px;
+    height: 30px;
+    font-size: 12px;
     }
     a{
         font-size: 12px;

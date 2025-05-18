@@ -58,7 +58,11 @@ b{
     border-radius: 10px;
 }
 b{
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 13px;
+}
+li{
+    font-size: 11px;
 }
 .vids{
     display: grid;
