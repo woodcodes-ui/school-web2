@@ -48,4 +48,14 @@ iframe{
         width: 110px;
         height: 70px;
     }
+    button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    height: 150px;
+    font-size: 12px;
+    background-color: wheat;
+    color: #aa745228;
+}
 }
