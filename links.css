@@ -53,9 +53,13 @@ iframe{
     justify-content: center;
     align-items: center;
     padding: 2px;
-    height: 150px;
+    height: 15px;
     font-size: 12px;
     background-color: wheat;
     color: #aa745228;
-}
+    }
+    a{
+        font-size: 12px;
+    }
+
 }

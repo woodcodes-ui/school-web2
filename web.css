@@ -77,7 +77,7 @@ body{
   
   }
   .main {
-    width: 60vw;
+    width: 80vw;
     display: grid;
     gap: 10px;
     margin: 0 auto; /* This centers the container horizontally */
