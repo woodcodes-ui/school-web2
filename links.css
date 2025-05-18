@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #AA7452;
+    color: #ffffff;
     cursor:pointer;
 }
 button{
@@ -32,6 +32,8 @@ button:hover{
 .tp-button{
     color: #aa745228;
     text-decoration: none;
+    width: fit-content;
+    padding: 5px;
 }
 ul{
     list-style: none;
