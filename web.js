@@ -63,3 +63,25 @@ q9.addEventListener("click", function() {
     a9.style.display = (a9.style.display === "none" || a9.style.display === "") ? "grid" : "none";
     a9.style.gap = "3px"
 });
+
+function updateLinks() {
+    const links = document.querySelectorAll("#right a");
+
+    links.forEach(link => {
+        if (window.innerWidth <= 600) {
+            if (link.textContent === "Periodo 1") link.textContent = "P1";
+            if (link.textContent === "Periodo 2") link.textContent = "P2";
+            if (link.textContent === "Periodo 3") link.textContent = "P3";
+            if (link.textContent === "Periodo 4") link.textContent = "P4";
+        } else {
+            if (link.textContent === "P1") link.textContent = "Periodo 1";
+            if (link.textContent === "P2") link.textContent = "Periodo 2";
+            if (link.textContent === "P3") link.textContent = "Periodo 3";
+            if (link.textContent === "P4") link.textContent = "Periodo 4";
+        }
+    });
+}
+
+// Run function on load and when window resizes
+window.addEventListener("load", updateLinks);
+window.addEventListener("resize", updateLinks);

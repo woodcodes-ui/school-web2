@@ -56,9 +56,9 @@ img{
     #right {
         position: relative;
         right: 0px;
-        padding: 5px;
+        padding: 15px;
         display: flex;
-        gap: 8px;
+        gap: 10px;
         align-items: center;
         font-size: 10px;
     }
