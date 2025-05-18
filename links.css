@@ -62,6 +62,8 @@ iframe{
     font-size: 12px;
     background-color: wheat;
     color: #aa745228;
+    border: 1px solid gray;
+    border-radius: 5px;
     }
     .tp-button{
     color: #aa745228;
