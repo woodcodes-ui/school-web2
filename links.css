@@ -13,13 +13,12 @@ a:hover{
     color: #ffffff;
     cursor:pointer;
 }
+
 button{
-    display: grid;
-    justify-content: center;
+    display: flex;
     align-items: center;
-    padding: 2px;
-    height: 30px;
-    font-size: 15px;
+    justify-content: center;
+    height: 24px;
     background-color: wheat;
     color: #aa745228;
 }
@@ -43,6 +42,10 @@ ul{
 }
 iframe{
     border-radius: 10px;
+}
+.temas{
+    display: grid;
+    gap: 5px;
 }
 @media only screen and (max-width:600px) {
     iframe{

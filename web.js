@@ -18,6 +18,7 @@ const q9 = document.getElementById("q9");
 const a9 = document.getElementById("a9");
 
 
+
 q1.addEventListener("click", function() {
     // Check current display property of a1 and toggle it
     a1.style.display = (a1.style.display === "none" || a1.style.display === "") ? "grid" : "none";
